@@ -1,0 +1,483 @@
+.nav{
+    background-color: rgba(41, 231, 231, 0.048);
+    width: 1330px;
+    height:70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Georgia, serif;
+}
+a{
+    font-family: Georgia, serif;
+    color: black;
+    text-decoration: white;
+}
+.hyrja{
+    display: flex;
+    width: 1330px;
+    height: 200px;
+    justify-content: center;
+
+}
+.pershkrimi{
+    background-color: rgba(41, 231, 231, 0.048);
+    width: 1330px;
+    height: 200px;
+    text-align: center;
+}
+.kamerat{
+    background-color: rgba(41, 231, 231, 0.048);
+    width: 1330px;
+    height: 200px;
+    text-align: center;
+    display: block;
+}
+h1{
+    
+    font-family: Georgia, serif;
+    text-align: center;
+}
+h3{
+    
+    text-align: center;
+}
+.foto1section{
+   
+    text-align: center;
+    width: 1330px;
+    height: 500px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: space-around;
+}
+.alarmet{
+    display: grid;
+    width: 1330px;
+    height: auto;
+    grid-template-areas:" zjarri zjarri vjedhja vjedhja "" foto1 foto2 foto3 foto4"
+    "foto5 foto6 foto7 foto8";
+    gap: 20px;
+    justify-items: center;
+}
+.zjarri{
+    grid-area: zjarri;
+}
+.vjedhjes{
+    grid-area: vjedhja;
+}
+.foto1{
+    grid-area: foto1;
+    
+}
+.foto2{
+    grid-area: foto2;
+    
+}
+.foto3{
+    grid-area: foto3;
+    
+}
+.foto4{
+    grid-area: foto4;
+    
+}
+.foto5{
+    grid-area: foto5;
+    
+}
+.foto6{
+    grid-area: foto6;
+   
+}
+.foto7{
+    grid-area: foto7;
+   
+}
+.foto8{
+    grid-area: foto8;
+    
+}
+.zerimi{
+    width: 1330px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.footeri{
+    display: grid;
+    width: 1330px;
+    height: auto;
+    grid-template-areas: "kontakti vendndodhja";
+    gap: 20px;
+    justify-content: center;
+}
+.kontakti{
+    grid-area: kontakti;
+}
+.vendndodhja{
+    grid-area: vendndodhja;
+}
+@media(max-width:420px){
+    .nav{
+        background-color: rgba(41, 231, 231, 0.048);
+        width: 100%;
+        height: 150px;
+        display: flex;
+        flex-wrap: wrap;
+        font-family: Georgia, serif;
+    }
+    a{
+        font-family: Georgia, serif;
+        color: black;
+        text-decoration: white;
+    }
+    .hyrja{
+        display: flex;
+        width: 100%;
+        height: 90px;
+        justify-content: center;
+    
+    }
+    .pershkrimi{
+        background-color: rgba(41, 231, 231, 0.048);
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .kamerat{
+        background-color: rgba(41, 231, 231, 0.048);
+        width: 100%;
+        height: auto;
+        text-align: center;
+        display: block;
+    }
+    h1{
+        
+        font-family: Georgia, serif;
+        text-align: center;
+    }
+    h3{
+        
+        text-align: center;
+    }
+    .foto1section{
+   
+        text-align: center;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+        align-content: space-around;
+    }
+    .alarmet{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+    .foto1{
+        grid-area: foto1;
+        
+    }
+    .foto2{
+        grid-area: foto2;
+        
+    }
+    .foto3{
+        grid-area: foto3;
+        
+    }
+    .foto4{
+        grid-area: foto4;
+        
+    }
+    .foto5{
+        grid-area: foto5;
+        
+    }
+    .foto6{
+        grid-area: foto6;
+       
+    }
+    .foto7{
+        grid-area: foto7;
+       
+    }
+    .foto8{
+        grid-area: foto8;
+        
+    }
+    .zerimi{
+        width: 100%;
+        height: 660px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footeri{
+        display: flex;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        overflow: hidden;
+    }
+}
+@media (min-width:421px) {
+    .nav{
+        background-color: rgba(41, 231, 231, 0.048);
+        width: 660px;
+        height:100px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-;
+        font-family: Georgia, serif;
+    }
+    a{
+        font-family: Georgia, serif;
+        color: black;
+        text-decoration: white;
+    }
+    .hyrja{
+        display: flex;
+        width: 650px;
+        height: 150px;
+        justify-content: center;
+    
+    }
+    .pershkrimi{
+        background-color: rgba(41, 231, 231, 0.048);
+        width: 660px;
+        height: 200px;
+        text-align: center;
+    }
+    .kamerat{
+        background-color: rgba(41, 231, 231, 0.048);
+        width: 660px;
+        height: 200px;
+        text-align: center;
+        display: block;
+    }
+    h1{
+        
+        font-family: Georgia, serif;
+        text-align: center;
+    }
+    h3{
+        
+        text-align: center;
+    }
+    .foto1section{
+   
+        text-align: center;
+        width: 660px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+        align-content: space-around;
+    }
+    .alarmet{
+        display: grid;
+        width: 660px;
+        height: auto;
+        grid-template-areas:" zjarri zjarri vjedhja vjedhja "" foto1 foto2 foto3 foto4"
+        "foto5 foto6 foto7 foto8";
+        gap: 20px;
+        justify-items: center;
+    }
+    .zjarri{
+        grid-area: zjarri;
+    }
+    .vjedhjes{
+        grid-area: vjedhja;
+    }
+    .foto1{
+        grid-area: foto1;
+        
+    }
+    .foto2{
+        grid-area: foto2;
+        
+    }
+    .foto3{
+        grid-area: foto3;
+        
+    }
+    .foto4{
+        grid-area: foto4;
+        
+    }
+    .foto5{
+        grid-area: foto5;
+        
+    }
+    .foto6{
+        grid-area: foto6;
+       
+    }
+    .foto7{
+        grid-area: foto7;
+       
+    }
+    .foto8{
+        grid-area: foto8;
+        
+    }
+    .zerimi{
+        width: 660px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+    .footeri{
+        display: grid;
+        width: 650px;
+        height: auto;
+        grid-template-areas: "kontakti""vendndodhja";
+        justify-content: center;
+    }
+    .kontakti{
+        grid-area: kontakti;
+    }
+    .vendndodhja{
+        grid-area: vendndodhja;
+    }
+}
+@media (min-width:700px) {
+    .nav{
+        background-color: rgba(41, 231, 231, 0.048);
+        width: 1330px;
+        height:70px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-family: Georgia, serif;
+    }
+    a{
+        font-family: Georgia, serif;
+        color: black;
+        text-decoration: white;
+    }
+    .hyrja{
+        display: flex;
+        width: 1330px;
+        height: 200px;
+        justify-content: center;
+    
+    }
+    .pershkrimi{
+        background-color: rgba(41, 231, 231, 0.048);
+        width: 1330px;
+        height: 200px;
+        text-align: center;
+    }
+    .kamerat{
+        background-color: rgba(41, 231, 231, 0.048);
+        width: 1330px;
+        height: 200px;
+        text-align: center;
+        display: block;
+    }
+    h1{
+        
+        font-family: Georgia, serif;
+        text-align: center;
+    }
+    h3{
+        
+        text-align: center;
+    }
+    .foto1section{
+       
+        text-align: center;
+        width: 1330px;
+        height: 500px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+        align-content: space-around;
+    }
+    .alarmet{
+        display: grid;
+        width: 1330px;
+        height: auto;
+        grid-template-areas:" zjarri zjarri vjedhja vjedhja "" foto1 foto2 foto3 foto4"
+        "foto5 foto6 foto7 foto8";
+        gap: 20px;
+        justify-items: center;
+    }
+    .zjarri{
+        grid-area: zjarri;
+    }
+    .vjedhjes{
+        grid-area: vjedhja;
+    }
+    .foto1{
+        grid-area: foto1;
+        
+    }
+    .foto2{
+        grid-area: foto2;
+        
+    }
+    .foto3{
+        grid-area: foto3;
+        
+    }
+    .foto4{
+        grid-area: foto4;
+        
+    }
+    .foto5{
+        grid-area: foto5;
+        
+    }
+    .foto6{
+        grid-area: foto6;
+       
+    }
+    .foto7{
+        grid-area: foto7;
+       
+    }
+    .foto8{
+        grid-area: foto8;
+        
+    }
+    .zerimi{
+        width: 1330px;
+        height: 170px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+    .footeri{
+        display: grid;
+        width: 1330px;
+        height: auto;
+        grid-template-areas: "kontakti vendndodhja";
+        gap: 20px;
+        justify-content: center;
+        
+    }
+    .kontakti{
+        grid-area: kontakti;
+    }
+    .vendndodhja{
+        grid-area: vendndodhja;
+    }
+}
